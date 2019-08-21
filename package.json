@@ -1,0 +1,17 @@
+{
+  "name": "calculadora-vm-vrms",
+  "version": "1.0.0",
+  "description": "An Electron application for Vm and Vrms calc",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder -wml"
+  },
+  "author": "Gustavo",
+  "devDependencies": {
+    "electron": "^6.0.3",
+    "electron-builder": "^21.2.0",
+    "electron-packager": "^14.0.4"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Conversores AC</title>
+  <link rel="stylesheet" type="text/css" href="index.css"> 
+</head>
+
+<body>
+  
+
+  <div class="container">
+    <h3>Calculadora para conversores AC</h3>
+    <input id="vp" placeholder="digite aqui o VP"></input>
+    <input id="ang" placeholder="digite aqui o Ângulo"></input>
+    <div class="buttons">
+      <button type="submit" onclick="tensaoMedia()">Tensão Média</button>
+      <button type="submit" onclick="tensaoEficaz()">Tensão Eficaz</button>
+    </div>
+    <p id="response"></p>
+  </div>
+  <script src="./calculos.js"></script>
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
