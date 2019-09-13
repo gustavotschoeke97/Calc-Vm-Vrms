@@ -1,2 +1,2 @@
 # Calc-Vm-Vrms
-An electron app for Vm and Vrms calc.
+An electron app calculator for Root-Mean-Square (RMS) Voltage.
