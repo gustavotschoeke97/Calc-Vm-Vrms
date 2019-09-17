@@ -14,7 +14,6 @@ function tensaoMedia(){
 function tensaoEficaz(){
     let vp = document.getElementById("vp").value
     let ang = document.getElementById("ang").value
-    console.log(vp,ang)
     try {
         let Vrms = vp*Math.sqrt(1/4 - ang/720 + Math.sin(((2*ang)*Math.PI/180))/(8*Math.PI))
         return  document.getElementById('response').innerHTML= Vrms 
